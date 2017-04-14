@@ -1,0 +1,150 @@
+body {
+    position: relative;
+    width: 100%;
+}
+
+.main-container {
+    max-width: 100%;
+    position: relative;
+    height: 100vh;
+}
+
+.top-section {
+    position: relative;
+    background: url("img/top_img.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 339px;
+}
+
+.main-nav {
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 999;
+    justify-content: space-between;
+    display: flex;
+    height: 9.3%;
+}
+
+.logo {
+    background: url(img/wot-mark.svg);
+    height: 35px;
+    width: 35px;
+    margin-left: 4.5%;
+    margin-top: 4%;
+}
+
+.HAM {
+    background: url(img/menu-alt-256.png);
+    background-position: center;
+    background-size: cover;
+    height: 15px;
+    width: 20px;
+    margin-right: 7%;
+    margin-top: 6%;   
+}
+
+.main-header {
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.font-alt {
+    height: 50%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.line-one {
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    margin-top: 17px;
+    font-weight: 600;
+    display: block;
+}
+
+.line-two {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    margin-top: 2px;
+    font-weight: 300;
+    display: block;
+}
+
+.line-three {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 2px;
+    font-weight: 600;
+    display: block;
+}
+
+.line-three span {
+    color: #ff803a;
+}
+
+.line-three:before {
+    content: " ";
+    display: block;
+    background: white;
+    height: 8px;
+    width: 10%;
+    position: absolute;
+    right: 78%;
+    top: 35%;
+}
+
+.line-three:after {
+    content: " ";
+    display: block;
+    background: white;
+    height: 8px;
+    width: 10%;
+    position: absolute;
+    left: 78%;
+    top: 35%;
+}
+
+.line-four {
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    margin-top: 2px;
+    font-weight: 600;
+    display: block;
+}
+
+.line-four span {
+    color: #bdd436;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.learn-more-button {
+    color: white;
+    background: #bdd436;
+    border: 5px solid #bdd436;
+    border-radius: 25px;
+    width: 93%;
+    height: 46.5px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 10%;
+    letter-spacing: 1.5px;
+}
